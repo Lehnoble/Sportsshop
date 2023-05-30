@@ -30,7 +30,7 @@ img{
     padding: 10px;
     max-width: 100%;
     text-align: center;
-    background-color: white;
+    background-color: black;
     animation-name: faded;
     animation-duration: 2.5s;
     box-shadow: 0px 0px 2px black;
@@ -154,7 +154,7 @@ img{
     left: 0;
     right: 0;
     z-index: 9;
-    
+
 }
 
 #pop-close{
@@ -300,7 +300,7 @@ nav:hover > .logo a{
     position: relative;
     width: 100%;
     background-color: white;
-    
+
 }
 
 .nav-dropdown-grid{
@@ -542,7 +542,7 @@ nav:hover > .logo a{
     border: 1px solid rgba(206,210,214);
     padding: 0.75rem 1rem;
     margin-bottom: 2.5rem
-} 
+}
 
 .search-mobile input{
     margin-left: 1em;
@@ -731,7 +731,7 @@ nav:hover > .logo a{
     letter-spacing: -1px;
     font-weight: 300;
     font-family: SainteColombe,serif;
-} 
+}
 
 .cart-price .cart-ship{
     margin-left: 2.5rem;
@@ -854,7 +854,7 @@ nav:hover > .logo a{
     outline: none;
     margin: 10px;
   }
-  
+
   /* button */
   .dropbtn {
     opacity: .6;
@@ -869,7 +869,7 @@ nav:hover > .logo a{
     display: flex;
     align-items: center;
   }
-  
+
   /* dd content */
   .dropdown .dropdown-content {
     position: absolute;
@@ -883,7 +883,7 @@ nav:hover > .logo a{
     transition: 0.35s ease-out;
     border-radius: 0.25rem;
     border-color: rgba(231,233,235, 1);
-    
+
   }
 
   .dropdown-content a {
@@ -900,7 +900,7 @@ nav:hover > .logo a{
     color: rgba(10,30,50, .8);
     background-color: #eaeaea;
   }
-  
+
   /* show dd content */
   .dropdown:focus .dropdown-content {
     outline: none;
@@ -910,7 +910,7 @@ nav:hover > .logo a{
   .dropbtn:hover, .dropdown:focus .dropbtn {
     opacity: 1;
   }
-  
+
   .dropdown:focus .arrow{
     transform: rotate(-180deg);
     transition: .35s ease-out;
@@ -1005,7 +1005,7 @@ nav:hover > .logo a{
   .cloth:hover #quick-buy{
     opacity: 1;
     transition: .35s;
-    
+
   }
   .quick-buy button{
     display: flex;
@@ -1077,7 +1077,7 @@ nav:hover > .logo a{
 
 .footer-inner form{
     max-width: 400px;
-    padding-top: 7.5rem; 
+    padding-top: 7.5rem;
     padding-bottom: 7.5rem;
     margin: auto;
     width: 100%;
@@ -1317,14 +1317,14 @@ nav:hover > .logo a{
     .mobile-navbar{
         display: flex;
     }
-    
+
 
     /* Mobile Nav*/
 
     .desktop-wrapper{
         background-color: white;
     }
-    
+
     .nav-mobile{
         display: flex;
         flex-direction: column;
@@ -1334,19 +1334,19 @@ nav:hover > .logo a{
         padding-right: 30px;
         position: absolute;
         top: -1000px;
-        left: 0; 
+        left: 0;
         width: 100%;
         /* left: -1000px; */
         background-color: white;
         transition: 0.8s;
         padding-bottom: 300px;
     }
- 
+
     #nav-check:checked~.mobile-navbar nav{
         top: 70px;
     }
 
-    
+
     /* Items Container */
     .item-wrapper{
         padding-left: 30px;
